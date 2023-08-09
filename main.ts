@@ -35,17 +35,3 @@ validate(post).then((errors) => {
   }
 });
 
-// validateOrReject(post).catch((errors) => {
-//   console.log("Promise rejected (validation failed). Errors: ", errors);
-// });
-// // or
-// async function validateOrRejectExample(input) {
-//   try {
-//     await validateOrReject(input);
-//   } catch (errors) {
-//     console.log(
-//       "Caught promise rejection (validation failed). Errors: ",
-//       errors
-//     );
-//   }
-// }
