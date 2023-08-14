@@ -27,7 +27,6 @@ let post = new Post();
 post.rating = 10.1; // should not pass
 
 validate(post).then((errors) => {
-  // errors is an array of validation errors
   if (errors.length > 0) {
     console.log("validation failed. errors: ", errors);
   } else {
