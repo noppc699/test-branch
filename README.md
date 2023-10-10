@@ -3,12 +3,13 @@
 
 This is a redesign project by Team MC, which is related to the sales of various products and equipment of AIS (Advanced Info Service Public Company Limited). This project primarily focuses on improving and enhancing the sales processes to increase efficiency and effectiveness in the market for communication devices and services offered by AIS and its partners.
 
-## 
+## Introduction
+This project employs a [MONOREPO](https://en.wikipedia.org/wiki/Monorepo). approach, combining client, service, and e2e tests within the same repository. It is managed using Lerna as a tool for monorepo management and utilizes Yarn for package management. The choice of using [ํYARN](https://classic.yarnpkg.com/lang/en/docs/workspaces/). is driven by its simpler workspace handling compared to npm, making it a more suitable option for this monorepo setup.
 
 ## Monorepos
 
-this project use [monorepo](https://en.wikipedia.org/wiki/Monorepo).
-and yarn workspace [yarn](https://classic.yarnpkg.com/lang/en/docs/workspaces/).
+this project use 
+and yarn workspace 
 
 ## Initializing the Project
 
